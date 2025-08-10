@@ -1,0 +1,414 @@
+@prefix : <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/> .
+
+<http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22> rdf:type owl:Ontology ;
+                                                                                 owl:imports <http://www.semanticweb.org/00/ontologies/2025/7/untitled-ontology-3and4> ,
+                                                                                             <http://www.semanticweb.org/ppp/ontologies/2025/6/untitled-ontology-7> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/usesTool
+:usesTool rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#监测场景/对象
+<http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#监测场景/对象> rdf:type owl:DatatypeProperty ;
+                                                                                        rdfs:domain :MI521.1症候群监测算法与模型 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#监测范围/点位
+<http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#监测范围/点位> rdf:type owl:DatatypeProperty ;
+                                                                                        rdfs:domain :MI522公共卫生监测 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/事件地点
+:事件地点 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI514公共卫生事件 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/事件数据内容
+:事件数据内容 rdf:type owl:DatatypeProperty ;
+        rdfs:domain :MI514公共卫生事件 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/事件时间背景
+:事件时间背景 rdf:type owl:DatatypeProperty ;
+        rdfs:domain :MI514公共卫生事件 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/关联数据
+:关联数据 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI521.2传染病时空预测 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/基本信息
+:基本信息 rdf:type owl:DatatypeProperty ;
+      rdfs:domain <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)> .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/干预措施
+:干预措施 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI523健康管理服务 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/数据内容
+:数据内容 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI513患者生成数据 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/数据采集
+:数据采集 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI522公共卫生监测 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/服务人群
+:服务人群 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI523健康管理服务 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/模型框架
+:模型框架 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI521.2传染病时空预测 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/用药
+:用药 rdf:type owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)> .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/监测数据关联
+:监测数据关联 rdf:type owl:DatatypeProperty ;
+        rdfs:domain :MI521.1症候群监测算法与模型 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/监测目标毒株
+:监测目标毒株 rdf:type owl:DatatypeProperty ;
+        rdfs:domain :MI521.2传染病时空预测 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/监测覆盖疾病
+:监测覆盖疾病 rdf:type owl:DatatypeProperty ;
+        rdfs:domain :MI522公共卫生监测 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/算法模型
+:算法模型 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI521.1症候群监测算法与模型 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/统计周期
+:统计周期 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI512公共卫生数据 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/统计数据内容
+:统计数据内容 rdf:type owl:DatatypeProperty ;
+        rdfs:domain :MI512公共卫生数据 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/统计范围
+:统计范围 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI512公共卫生数据 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/记录
+:记录 rdf:type owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)> .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/记录者
+:记录者 rdf:type owl:DatatypeProperty ;
+     rdfs:domain :MI513患者生成数据 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/诊断
+:诊断 rdf:type owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)> .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/趋势分析
+:趋势分析 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI522公共卫生监测 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/跟踪数据效果
+:跟踪数据效果 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/预测结果
+:预测结果 rdf:type owl:DatatypeProperty ;
+      rdfs:domain :MI521.2传染病时空预测 .
+
+
+###  http://www.w3.org/2002/07/owl#topDataProperty
+owl:topDataProperty rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/00/ontologies/2025/7/untitled-ontology-3and4#临床信息学（临床、个体）
+<http://www.semanticweb.org/00/ontologies/2025/7/untitled-ontology-3and4#临床信息学（临床、个体）> rdfs:subClassOf :医学信息学 .
+
+
+###  http://www.semanticweb.org/00/ontologies/2025/7/untitled-ontology-3and4#图像信息学与影像信息学
+<http://www.semanticweb.org/00/ontologies/2025/7/untitled-ontology-3and4#图像信息学与影像信息学> rdfs:subClassOf :医学信息学 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)
+<http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf :MI51健康信息数据挖掘 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI512公共卫生数据
+:MI512公共卫生数据 rdf:type owl:Class ;
+             rdfs:subClassOf :MI51健康信息数据挖掘 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI513患者生成数据
+:MI513患者生成数据 rdf:type owl:Class ;
+             rdfs:subClassOf :MI51健康信息数据挖掘 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI514公共卫生事件
+:MI514公共卫生事件 rdf:type owl:Class ;
+             rdfs:subClassOf :MI51健康信息数据挖掘 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI51健康信息数据挖掘
+:MI51健康信息数据挖掘 rdf:type owl:Class ;
+              rdfs:subClassOf :MI5公共卫生信息学（群体） ;
+              owl:disjointWith :MI52公共卫生信息工程 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI521.1症候群监测算法与模型
+:MI521.1症候群监测算法与模型 rdf:type owl:Class ;
+                   rdfs:subClassOf :MI521疾病监测与预警 ;
+                   owl:disjointWith :MI521.2传染病时空预测 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI521.2传染病时空预测
+:MI521.2传染病时空预测 rdf:type owl:Class ;
+                rdfs:subClassOf :MI521疾病监测与预警 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI521疾病监测与预警
+:MI521疾病监测与预警 rdf:type owl:Class ;
+              rdfs:subClassOf :MI52公共卫生信息工程 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI522公共卫生监测
+:MI522公共卫生监测 rdf:type owl:Class ;
+             rdfs:subClassOf :MI52公共卫生信息工程 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI523健康管理服务
+:MI523健康管理服务 rdf:type owl:Class ;
+             rdfs:subClassOf :MI52公共卫生信息工程 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI52公共卫生信息工程
+:MI52公共卫生信息工程 rdf:type owl:Class ;
+              rdfs:subClassOf :MI5公共卫生信息学（群体） .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/MI5公共卫生信息学（群体）
+:MI5公共卫生信息学（群体） rdf:type owl:Class ;
+                rdfs:subClassOf :医学信息学 .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/医学信息学
+:医学信息学 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ppp/ontologies/2025/6/untitled-ontology-7/一般理论
+<http://www.semanticweb.org/ppp/ontologies/2025/6/untitled-ontology-7/一般理论> rdfs:subClassOf :医学信息学 .
+
+
+###  http://www.semanticweb.org/ppp/ontologies/2025/6/untitled-ontology-7/生物信息学
+<http://www.semanticweb.org/ppp/ontologies/2025/6/untitled-ontology-7/生物信息学> rdfs:subClassOf :医学信息学 .
+
+
+###  http://www.semanticweb.org/ppp/ontologies/2025/6/untitled-ontology-7/药物信息学
+<http://www.semanticweb.org/ppp/ontologies/2025/6/untitled-ontology-7/药物信息学> rdfs:subClassOf :医学信息学 .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/OmicsIntegrator_v2
+:OmicsIntegrator_v2 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/X省慢性病患病率数据
+:X省慢性病患病率数据 rdf:type owl:NamedIndividual ,
+                     :MI512公共卫生数据 ;
+            :统计周期 "XXXX年" ;
+            :统计数据内容 "高血压患病率：xx.xx%；糖尿病患病率：xx.xx%" ;
+            :统计范围 "X省S个地市，抽样人口xx万" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/ctDNA_Test_001
+:ctDNA_Test_001 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/冠心病患者运动手环数据
+:冠心病患者运动手环数据 rdf:type owl:NamedIndividual ,
+                      :MI513患者生成数据 ;
+             :数据内容 """xxxx-xx-xx 7:00血糖：x.x mmol/L（餐前）
+xxxx-xx-xx 19:00血糖：x.x mmol/L（餐后x小时）""" ;
+             :记录者 "XXX（Ⅱ型糖尿病）" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/国内疫苗接种率监测数据
+:国内疫苗接种率监测数据 rdf:type owl:NamedIndividual ,
+                      :MI512公共卫生数据 ;
+             :统计周期 "xxxx年第x季度" ;
+             :统计数据内容 "乙肝疫苗接种率xx.x%；荨麻疹接种率xx.x%；流感疫苗接种率xx.x%" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/慢性病高危人群动态监测网络
+:慢性病高危人群动态监测网络 rdf:type owl:NamedIndividual ,
+                        :MI522公共卫生监测 ;
+               <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#监测范围/点位> "某地级市 30 - 65 岁常住人口" ;
+               :数据采集 """社区卫生服务中心年度体检（血生化、腰围、血压等指标）
+药店慢性病用药销量（硝苯地平、二甲双胍等购药频次）
+外卖平台订单数据（高油高盐餐食占比，关联肥胖风险）""" ;
+               :监测覆盖疾病 "高血压、糖尿病、肥胖症" ;
+               :趋势分析 "2023 年 vs 2022 年，高血压高危人群占比从 18.7% 升至 21.2%，与外卖高盐订单增长 25% 强相关" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/手足口病症候群监测系统
+:手足口病症候群监测系统 rdf:type owl:NamedIndividual ,
+                      :MI521.1症候群监测算法与模型 ;
+             <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#监测场景/对象> "某连锁托育机构 5 家园区" ;
+             :监测数据关联 "晨检登记（每日入园症状筛查）；园区消毒记录（紫外线、含氯消毒剂使用频次）；食材供应商溯源信息（排查食源性传播可能）" ;
+             :算法模型 "改进型 Apriori 关联规则模型" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/新冠变异株社区传播时空预测
+:新冠变异株社区传播时空预测 rdf:type owl:NamedIndividual ,
+                        :MI521.2传染病时空预测 ;
+               :关联数据 """核酸检测阳性点位（GIS 坐标，精确至社区网格）
+地铁 / 公交客流数据（早晚高峰人流量 TOP5 站点）
+冷链物流仓库分布及货物流向（关联进口物品传播链）""" ;
+               :模型框架 "时空贝叶斯网络（ST - BN）" ;
+               :监测目标毒株 "XBB.1.5 亚型" ;
+               :预测结果 """短期（7 天）：老旧小区 A 区或现聚集性传播，风险值 8.2（满分 10）
+中长期（30 天）：随疫苗加强针覆盖率提升（目标 80%），传播速率预计下降 40%""" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/术后康复记录
+:术后康复记录 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)> ;
+        :基本信息 "姓名，性别，年龄" ;
+        :记录 "康复数据" ;
+        :诊断 "诊疗疾病事件" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/洪涝灾后肠道传染病预警事件
+:洪涝灾后肠道传染病预警事件 rdf:type owl:NamedIndividual ,
+                        :MI514公共卫生事件 ;
+               :事件地点 "W县" ,
+                     "xxxx-x W县遇洪灾" ;
+               :事件数据内容 """灾后 1 周：腹泻病例较同期上升 30%
+水质监测：部分区域饮用水大肠杆菌超标""" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/流感样症候群监测模型应用
+:流感样症候群监测模型应用 rdf:type owl:NamedIndividual ,
+                       :MI521.1症候群监测算法与模型 ;
+              <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#监测场景/对象> "某市中学春季传染病监测" ;
+              :监测数据关联 "输入数据：校医室就诊记录（发热、咳嗽、乏力等症状占比）；班级缺勤率（连续 3 日≥ 10% 触发预警）；周边社区流感确诊病例数（区域传播关联）" ;
+              :算法模型 "基于 LSTM 的多源数据融合模型" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/登革热媒介伊蚊时空扩散预测
+:登革热媒介伊蚊时空扩散预测 rdf:type owl:NamedIndividual ,
+                        :MI521.2传染病时空预测 ;
+               :关联数据 """蚊虫密度监测（布雷图指数，每周 2 次抽样）
+降雨量与水位变化（近 1 月降雨量＞ 150mm，水位上涨 0.8m）
+居民户纱门纱窗安装率（＜ 60% 区域风险加倍）""" ;
+               :模型框架 "GIS + 元胞自动机（CA）模型" ;
+               :预测结果 """第 1 阶段（当前）：沿江绿化带区域布雷图指数 12（警戒值 5），预测 14 天内蚊媒扩散至周边 3 个小区
+干预后（假设开展大规模灭蚊）：若 72 小时内完成化学喷洒，可降低 60% 扩散范围""" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/糖尿病患者住院病历
+:糖尿病患者住院病历 rdf:type owl:NamedIndividual ,
+                    <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)> ;
+           :基本信息 "姓名，性别，年龄" ;
+           :用药 "用药名称，用药频次" ;
+           :诊断 "Ⅰ/Ⅱ型糖尿病" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/糖尿病患者居家血糖记录
+:糖尿病患者居家血糖记录 rdf:type owl:NamedIndividual ,
+                      :MI513患者生成数据 ;
+             :数据内容 """xxxx-xx-xx：步行 8000 步，心率峰值 110 次 / 分
+xxxx-xx-xx：静息心率 65 次 / 分，睡眠时长 7.2 小时""" ;
+             :记录者 "XX（冠心病术后）" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/老年人失能失智预防健康管理服务
+:老年人失能失智预防健康管理服务 rdf:type owl:NamedIndividual ,
+                          :MI523健康管理服务 ;
+                 :干预措施 """认知训练：每日在线课程（记忆卡牌、数字推理、情景模拟）
+体能维护：定制 “平衡训练 + 柔韧性练习” 方案（预防跌倒）
+营养支持：根据 BMI、骨密度结果，提供高蛋白、高钙膳食搭配""" ;
+                 :服务人群 "某养老社区60 岁以上老人" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/食物中毒事件
+:食物中毒事件 rdf:type owl:NamedIndividual ,
+                 :MI514公共卫生事件 ;
+        :事件地点 "M企业食堂" ;
+        :事件数据内容 "发病 38 人，症状：呕吐、腹泻（潜伏期 4-6 小时）" ;
+        :事件时间背景 "xxxx-xx-xxx午餐后" .
+
+
+###  http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22/高血压门诊随访记录
+:高血压门诊随访记录 rdf:type owl:NamedIndividual ,
+                    <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)> ;
+           :基本信息 "姓名，性别，年龄" ;
+           :诊断 "原发/继发高血压（）级" ,
+               "血压测量记录" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/dongzhiying/ontologies/2025/6/untitled-ontology-22#[MI511]电子健康记录(EHR)>
+                :MI512公共卫生数据
+                :MI513患者生成数据
+                :MI514公共卫生事件
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :MI521疾病监测与预警
+                :MI522公共卫生监测
+                :MI523健康管理服务
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

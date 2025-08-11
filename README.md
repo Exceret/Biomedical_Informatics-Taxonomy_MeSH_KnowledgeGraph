@@ -10,3 +10,4 @@
 | 阳钰熙 | <a style="color: blue; text-decoration: underline;">15364051195\@163.com</a> | <https://github.com/Exceret> |
 | 董志颖 | <a style="color: blue; text-decoration: underline;">2163443744\@qq.com</a> |  |
 | 杜丽萍 | <a style="color: blue; text-decoration: underline;">3290989459\@qq.com</a> |  |
+| 陈文文 | <a style="color: blue; text-decoration: underline;">2305662079\@qq.com</a> |  |

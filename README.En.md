@@ -1,7 +1,5 @@
-::: {align="center"}
 **Choose Language:**\
 [![English](https://img.shields.io/badge/Language-English-blue.svg)](./README,En.md) [![中文](https://img.shields.io/badge/Language-中文-red.svg)](./README.md)
-:::
 
 ## Medical Informatics & Bioinformatics: Taxonomy (Classification Thesauri), MeSH (Subject Headings) and Knowledge Graph
 

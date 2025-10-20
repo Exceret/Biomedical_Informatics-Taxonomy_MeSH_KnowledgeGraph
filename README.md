@@ -17,7 +17,7 @@
 | 杜丽萍 | <a style="color: blue; text-decoration: underline;">3290989459\@qq.com</a> |  |
 | 陈文文 | <a style="color: blue; text-decoration: underline;">2305662079\@qq.com</a> |  |
 | 谭潇阳 | <a style="color: blue; text-decoration: underline;">165856985\@qq.com</a> |  |
-| 张欣研 | <a style="color: blue; text-decoration: underline;"></a> |  |
+| 张欣研 | <a style="color: blue; text-decoration: underline;">2016533180@qq.com</a> |  |
 
 #### -- 生物信息学 --
 

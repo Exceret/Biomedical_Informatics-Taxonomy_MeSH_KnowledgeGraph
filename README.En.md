@@ -17,7 +17,7 @@ Knowledge graph constructed using [Protégé](https://protege.stanford.edu/)
 | Du Liping | <a style="color: blue; text-decoration: underline;">3290989459\@qq.com</a> |  |
 | Chen Wenwen | <a style="color: blue; text-decoration: underline;">2305662079\@qq.com</a> |  |
 | Tan Xiaoyang | <a style="color: blue; text-decoration: underline;">165856985\@qq.com</a> |  |
-| Zhang Xinyan | <a style="color: blue; text-decoration: underline;"></a> |  |
+| Zhang Xinyan | <a style="color: blue; text-decoration: underline;">2016533180@qq.com</a> |  |
 
 #### -- Bioinformatics --
 

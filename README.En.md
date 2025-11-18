@@ -11,17 +11,17 @@ Knowledge graph constructed using [Protégé](https://protege.stanford.edu/)
 
 | **Author** | **Email** | **Homepage** |
 |:-----------------------|:-----------------------|:-----------------------|
-| Xiang Ainingkun | <a style="color: blue; text-decoration: underline;">3302797366\@qq.com</a> | <https://gitee.com/xiangaizhuazhua> |
-| Yang Yuxi | <a style="color: blue; text-decoration: underline;">15364051195\@163.com</a> | <https://github.com/Exceret> |
-| Dong Zhiying | <a style="color: blue; text-decoration: underline;">2163443744\@qq.com</a> |  |
-| Du Liping | <a style="color: blue; text-decoration: underline;">3290989459\@qq.com</a> |  |
-| Chen Wenwen | <a style="color: blue; text-decoration: underline;">2305662079\@qq.com</a> |  |
-| Tan Xiaoyang | <a style="color: blue; text-decoration: underline;">165856985\@qq.com</a> |  |
-| Zhang Xinyan | <a style="color: blue; text-decoration: underline;">2016533180@qq.com</a> |  |
+|  Ainingkun Xiang | <a style="color: blue; text-decoration: underline;">3302797366\@qq.com</a> | <https://gitee.com/xiangaizhuazhua> |
+|  Yuxi Yang | <a style="color: blue; text-decoration: underline;">15364051195\@163.com</a> | <https://github.com/Exceret> |
+|  Zhiying Dong | <a style="color: blue; text-decoration: underline;">2163443744\@qq.com</a> |  |
+|  Liping Du  | <a style="color: blue; text-decoration: underline;">3290989459\@qq.com</a> |  |
+|  Wenwen Chen | <a style="color: blue; text-decoration: underline;">2305662079\@qq.com</a> |  |
+|  Xiaoyang Tan | <a style="color: blue; text-decoration: underline;">165856985\@qq.com</a> |  |
+|  Xinyan Zhang | <a style="color: blue; text-decoration: underline;">2016533180@qq.com</a> |  |
 
 #### -- Bioinformatics --
 
 | **Author** | **Email** | **Homepage** |
 |:-----------------------|:-----------------------|:-----------------------|
-| Wu Jianbin | <a style="color: blue; text-decoration: underline;">3469363631\@qq.com</a> | <https://github.com/bigfishAAA9> |
-| Zhang Haocheng | <a style="color: blue; text-decoration: underline;"></a> |  |
+| Jianbin Wu  | <a style="color: blue; text-decoration: underline;">3469363631\@qq.com</a> | <https://github.com/bigfishAAA9> |
+| Haocheng Zhang | <a style="color: blue; text-decoration: underline;"></a> |  |
